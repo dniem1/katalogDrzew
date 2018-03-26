@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="katalogdrzew.Drzewo2" table="tdane">
+    <id column="id" name="id"/>
+    <property column="Rodzaj" name="Rodzaj"/>
+    <property column="Nazwa" name="Nazwa"/>
+    <property column="Obwod_pnia" name="Obwod_pnia"/>
+  </class>
+</hibernate-mapping>
